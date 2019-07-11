@@ -1,0 +1,34 @@
+button {
+  float: right;
+}
+
+#bun-top {
+  position: relative;
+  top: 80px;
+}
+
+
+#builder-canvas {
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+  padding: 0;
+}
+
+#builder-canvas li {
+  height: 25px;
+}
+
+#bun-bottom {
+  position: absolute;
+  z-index: -1;
+}
+
+.leftside, .righttside {
+height: 100vh;
+width: 100%;
+}
+
+.righttside {
+  background: white;
+}
